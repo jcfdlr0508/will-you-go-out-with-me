@@ -1,0 +1,42 @@
+.box-button {
+  color: #ff00bb;
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.box-button button {
+  background-color: #ff4fd0;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 70px;
+  padding: 20px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.box-button button:hover {
+  background-color: #ff4fd0;
+}
+
+.box {
+  color: #000;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.no-button {
+  transition: transform 0.2s ease;
+}
+
+.no-button:hover {
+  transform: translate(20px, -10px);
+}
