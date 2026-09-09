@@ -35,6 +35,7 @@ function App() {
           <button
             className="no-button"
             onMouseEnter={moveNoButton}
+            onClick={moveNoButton}
             style={{
               transform: `translate(${noPos.x}px, ${noPos.y}px)`,
               position: 'relative',
